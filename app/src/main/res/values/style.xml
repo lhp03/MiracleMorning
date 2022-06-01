@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorControlNormal">#ffffff</item>
+        <item name = "android:background">#ece6cc</item>
+    </style>
+
+    <style name="MyMainColor" parent = "AppTheme">
+        <item name = "android:background">#6667AB</item>
+    </style>
+    <style name="MySecoundColor" parent = "AppTheme">
+        <item name = "android:textColor">#FFBDC1</item>
+        <item name="android:background">#6667AB</item>
+    </style>
+    <style name="MyBackGround" parent = "AppTheme">
+        <item name = "android:background">#ece6cc</item>
+    </style>
+    <style name = "Mybuttonstyle">
+        <item name ="android:textColor">#FFBDC1</item>
+        <item name="android:background">#70558E</item>
+    </style>
+    <style name = "MyTextstyle">
+        <item name ="android:textColor">#1b2134</item>
+        <item name="android:background">#c1c6db</item>
+    </style>
+    <style name = "MyeditTextstyle">
+        <item name ="android:textColor">#1b2134</item>
+        <item name="android:background">#c1c6db</item>
+    </style>
+
+
+</resources>

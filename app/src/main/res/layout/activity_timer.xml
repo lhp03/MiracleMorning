@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center"
+    tools:context=".TimerActivity"
+    style="@style/MyBackGround">
+
+    <TextView
+        android:id="@+id/textview_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:text="Routine Detail Title"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/drawable_timer_inner"
+            android:indeterminate="false"
+            android:indeterminateTint="@color/main"
+            android:max="100"
+            android:progress="100"
+            android:progressDrawable="@drawable/drawable_timer_outer"
+            android:rotation="-90" />
+        <TextView
+            android:id="@+id/textview_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/btn_start"
+            android:src="@drawable/ic_baseline_not_started_96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorNormal"/>
+
+        <ImageButton
+            android:id="@+id/btn_stop"
+            android:src="@drawable/ic_baseline_stop_circle_96"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorNormal"/>
+    </LinearLayout>
+</LinearLayout>

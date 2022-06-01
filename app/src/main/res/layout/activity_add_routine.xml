@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="루틴명" />
+
+    <EditText
+        android:id="@+id/edit_routine_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="My Routine"
+        android:text=""
+        android:background="@drawable/round_theme"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="시작 시간"/>
+
+    <TimePicker
+        android:id="@+id/timepicker_start"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:timePickerMode="spinner"
+        android:background="@drawable/round_theme"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종료 시간"/>
+
+    <TimePicker
+        android:id="@+id/timepicker_end"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:timePickerMode="spinner"
+        android:background="@drawable/round_theme"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="요일"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/round_theme"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/chk_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="일" />
+
+        <CheckBox
+            android:id="@+id/chk_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="월" />
+
+        <CheckBox
+            android:id="@+id/chk_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="화" />
+
+        <CheckBox
+            android:id="@+id/chk_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="수" />
+
+        <CheckBox
+            android:id="@+id/chk_thu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="목" />
+
+        <CheckBox
+            android:id="@+id/chk_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="금" />
+
+        <CheckBox
+            android:id="@+id/chk_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:checked="true"
+            android:text="토" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp">
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_alarm_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/round_theme">
+
+        <CheckBox
+            android:id="@+id/chk_start_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="루틴 시작 시간에 알림"/>
+
+
+        <CheckBox
+            android:id="@+id/chk_end_alarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="루틴 종료전 알림 울리기"/>
+
+        <RadioGroup
+            android:id="@+id/rd_group_end_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rd_three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3분"/>
+
+            <RadioButton
+                android:id="@+id/rd_five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="5분"/>
+
+            <RadioButton
+                android:id="@+id/rd_ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10분"/>
+
+            <RadioButton
+                android:id="@+id/rd_fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15분"/>
+
+            <RadioButton
+                android:id="@+id/rd_thirty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="30분"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="@color/main"
+            android:textColor="@color/colorPrimary"
+            android:text="확인" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

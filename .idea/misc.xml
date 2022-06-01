@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_add_routine.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_add_routine_detail.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_calendar.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_detail_routine.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_do_wake_certifi.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_gallery.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_information.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_login.xml" value="0.2453125" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_main.xml" value="0.36875" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_alarm.xml" value="0.2994791666666667" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_calendar.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/menu/bottom_menu.xml" value="0.2453125" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/clock.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.123" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/morning_resize.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/post_border.xml" value="0.1805" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/weight_resize.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_add_routine.xml" value="0.22" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_add_routine_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_do_wake_certifi.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_gallery.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_information.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_routine.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_signup.xml" value="0.14666666666666667" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_timer.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_wake_chal_certifi.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_wake_challenge.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_walk_chal_certifi.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_walk_challenge.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_weight_chal_certifi.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_weight_challenge.xml" value="0.17916666666666667" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_write_post.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/add_routine_dialog.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_alam.xml" value="0.5263157894736842" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_alarm.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_analysis.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_blank.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_challenge.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_community.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/item_gallary.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/item_post.xml" value="0.22" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/routine_list.xml" value="0.1539855072463768" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/routinedetail_list.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/text_row_item.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/view_loader.xml" value="0.1" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/view_toolbar.xml" value="0.17255434782608695" />
+        <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/menu/bottom_menu.xml" value="0.17916666666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

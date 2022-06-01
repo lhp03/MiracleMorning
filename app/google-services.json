@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "415427632372",
+    "project_id": "miraclemorning-32565",
+    "storage_bucket": "miraclemorning-32565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415427632372:android:880246ae742b812cf512a1",
+        "android_client_info": {
+          "package_name": "swdm2016.gachon.mr_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415427632372-2gb7si41h7gs1t27s8uil5cdvbst3f9m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "swdm2016.gachon.mr_demo",
+            "certificate_hash": "21fad6b67576ffde86d380efa2c8390016efc06a"
+          }
+        },
+        {
+          "client_id": "415427632372-hv4nfboels1lqvm7n4cs38v17fffcs9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMIWmUMxcgTG6hnbLIIvALbGfErKS3CUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415427632372-hv4nfboels1lqvm7n4cs38v17fffcs9m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
