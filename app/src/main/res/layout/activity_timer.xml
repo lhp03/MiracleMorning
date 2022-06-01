@@ -7,8 +7,7 @@
     android:orientation="vertical"
     android:padding="15dp"
     android:gravity="center"
-    tools:context=".TimerActivity"
-    style="@style/MyBackGround">
+    tools:context=".TimerActivity">
 
     <TextView
         android:id="@+id/textview_title"

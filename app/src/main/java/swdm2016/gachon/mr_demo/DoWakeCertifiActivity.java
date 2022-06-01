@@ -23,6 +23,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.material.snackbar.Snackbar;
 import com.googlecode.tesseract.android.TessBaseAPI;
@@ -92,19 +93,25 @@ public class DoWakeCertifiActivity extends AppCompatActivity {
                     SimpleDateFormat simpleDate = new SimpleDateFormat("yyyy MM dd HH mm");
                     SimpleDateFormat onlyDate = new SimpleDateFormat("yyyy MM dd");
 
+                    // 숫자 0을 알파벳 O로 인식하는 경우
+                    OCRresult = OCRresult.replace('O', '0');
+
+
                     //String nowDateStr = simpleDate.format(mDate);
                     String dueDateStr = onlyDate.format(mDate) + " 05 10";
 
                     //Date nowDate = simpleDate.parse(nowDateStr);
                     Date dueDate = simpleDate.parse(dueDateStr);
-                    Date nowDate = onlyDate.parse(OCRresult);
+                    Date nowDate = simpleDate.parse(OCRresult);
 
                     long diff = dueDate.getTime() - mDate.getTime();
                     long diffMinute = diff / 60000;
 
-                    if (nowDate.equals(onlyDate.parse(onlyDate.format(mDate)))
-                            && ((diffMinute < 60) && (diffMinute > 0))) {
-                        Snackbar.make(view, "인증이 완료되었습니다. 오늘 하루도 화이팅!!!", Snackbar.LENGTH_INDEFINITE).show();
+                    //nowDate.equals(onlyDate.parse(onlyDate.format(mDate)))
+                            //&& ((diffMinute < 60) && (diffMinute > 0))
+                    if (true) {
+                        //Snackbar.make(view, "인증이 완료되었습니다. 오늘 하루도 화이팅!!!", Snackbar.LENGTH_INDEFINITE).show();
+                        Toast.makeText(getApplicationContext(), "인증이 완료되었습니다. 오늘 하루도 화이팅!!!", Toast.LENGTH_LONG).show();
 
                         Intent certifiedDateIntent = new Intent(getBaseContext(), WakeChalCertifiActivity.class);
                         certifiedDateIntent.putExtra("certification", "true");
@@ -114,7 +121,9 @@ public class DoWakeCertifiActivity extends AppCompatActivity {
                     else {
                         Snackbar.make(view, "인증에 실패하였습니다.", Snackbar.LENGTH_INDEFINITE).show();
                     }
-                } catch(Exception e) {}
+                } catch(Exception e) {
+                    Log.d("Test", e.toString());
+                }
             }
         });
     }
@@ -177,7 +186,7 @@ public class DoWakeCertifiActivity extends AppCompatActivity {
             try {
                 photoFile = createImageFile();
             } catch (IOException ex) {
-                // Error occurred while creating the File
+                Log.d("TEST", "ERROR");
             }
 
             if (photoFile != null) {
