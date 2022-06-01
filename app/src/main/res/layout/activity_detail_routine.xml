@@ -28,7 +28,7 @@
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/main"
-        android:textColor="@color/colorPrimary"
+        android:textColor="@color/colorNormal"
         android:text="추가"/>
 
     <ListView

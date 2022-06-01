@@ -67,6 +67,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="일" />
 
         <CheckBox
@@ -75,6 +76,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="월" />
 
         <CheckBox
@@ -83,6 +85,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="화" />
 
         <CheckBox
@@ -91,6 +94,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="수" />
 
         <CheckBox
@@ -99,6 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="목" />
 
         <CheckBox
@@ -107,6 +112,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="금" />
 
         <CheckBox
@@ -115,6 +121,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="토" />
 
     </LinearLayout>
@@ -141,6 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="루틴 시작 시간에 알림"/>
 
 
@@ -149,6 +157,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
+            android:buttonTint="@color/main"
             android:text="루틴 종료전 알림 울리기"/>
 
         <RadioGroup
@@ -161,12 +170,14 @@
                 android:id="@+id/rd_three"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/main"
                 android:text="3분"/>
 
             <RadioButton
                 android:id="@+id/rd_five"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/main"
                 android:checked="true"
                 android:text="5분"/>
 
@@ -174,18 +185,21 @@
                 android:id="@+id/rd_ten"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/main"
                 android:text="10분"/>
 
             <RadioButton
                 android:id="@+id/rd_fifteen"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/main"
                 android:text="15분"/>
 
             <RadioButton
                 android:id="@+id/rd_thirty"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:buttonTint="@color/main"
                 android:text="30분"/>
         </RadioGroup>
 
@@ -210,7 +224,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/main"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorNormal"
             android:text="확인" />
 
     </LinearLayout>

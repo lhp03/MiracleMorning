@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        />
 
     <TextView
         android:id="@+id/diaryTextView"
@@ -97,7 +98,9 @@
         android:visibility="invisible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contextEditText" />
+        app:layout_constraintTop_toBottomOf="@+id/contextEditText"
+        android:backgroundTint="@color/main"
+        android:textColor="@color/colorNormal"/>
 
 
     <Button
@@ -112,7 +115,9 @@
         android:visibility="invisible"
         app:layout_constraintBaseline_toBaselineOf="@+id/save_Btn"
         app:layout_constraintEnd_toStartOf="@+id/del_Btn"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/main"
+        android:textColor="@color/colorNormal"/>
 
     <Button
         android:id="@+id/del_Btn"

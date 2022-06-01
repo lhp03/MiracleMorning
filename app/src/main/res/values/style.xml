@@ -2,11 +2,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorControlNormal">#ffffff</item>
-        <item name = "android:background">#ece6cc</item>
+        <item name = "android:background">#fafafa</item>
+        <item name = "android:textColor">#FF000000</item>
     </style>
 
     <style name="MyMainColor" parent = "AppTheme">

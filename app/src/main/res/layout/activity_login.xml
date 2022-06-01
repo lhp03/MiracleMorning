@@ -44,8 +44,8 @@
             android:ems="10"
             android:hint="E-mail"
             android:inputType="textEmailAddress"
-            android:textColor="#000000"
-            android:textColorHint="#43878080" />
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"/>
 
         <EditText
             android:id="@+id/edittext_password"
@@ -58,8 +58,8 @@
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
-            android:textColor="#000000"
-            android:textColorHint="#43878080" />
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary" />
 
         <Button
             android:id="@+id/btn_login"

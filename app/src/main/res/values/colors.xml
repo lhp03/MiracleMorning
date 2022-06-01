@@ -3,4 +3,5 @@
     <color name="colorPrimary">#FFBDC1</color>
     <color name="colorNormal">#ffffff</color>
     <color name="main">#6667AB</color>
+    <color name="background">#fafafa</color>
 </resources>

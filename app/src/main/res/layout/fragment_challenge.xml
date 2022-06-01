@@ -5,6 +5,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="fragments.ChallengeFragment">
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_height="match_parent"
@@ -13,68 +14,64 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         xmlns:android="http://schemas.android.com/apk/res/android">
 
+        <ScrollView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
 
-    <ScrollView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_weight="1">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
 
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:text="Challenges"
+                    android:layout_marginBottom="30dp"
+                    android:id="@+id/textView6"/>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent">
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="#70558e"
+                    android:text="\n8시 기상 챌린지\n#미라클 모닝"
+                    android:layout_marginBottom="30dp"
+                    android:id="@+id/wakeChall"
+                    android:textAlignment="viewStart"
+                    android:drawableTop="@drawable/morning_resize"
+                    android:backgroundTint="#ffffff"/>
 
-    <TextView
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_weight="1"
-        android:textSize="30sp"
-        android:textColor="#6667ab"
-        android:text="Challenges"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/textView6"/>
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="#70558e"
+                    android:text="\n하루 1만보 챌린지\n#healthy routine"
+                    android:layout_marginBottom="30dp"
+                    android:id="@+id/walkChall"
+                    android:textAlignment="viewStart"
+                    android:drawableTop="@drawable/walking_resize"
+                    android:backgroundTint="#ffffff"/>
 
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:textSize="20sp"
-        android:textColor="#70558e"
-        android:text="\n8시 기상 챌린지\n#미라클 모닝"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/wakeChall"
-        android:textAlignment="viewStart"
-        android:drawableTop="@drawable/morning_resize"
-        android:backgroundTint="#ffffff"/>
+                <Button
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:textSize="20sp"
+                    android:textColor="#70558e"
+                    android:text="\n2키로 감량 챌린지\n#건강한 몸"
+                    android:layout_marginBottom="30dp"
+                    android:id="@+id/weightChall"
+                    android:textAlignment="viewStart"
+                    android:drawableTop="@drawable/weight_resize"
+                    android:backgroundTint="#ffffff"/>
 
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:textSize="20sp"
-        android:textColor="#70558e"
-        android:text="\n하루 1만보 챌린지\n#healthy routine"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/walkChall"
-        android:textAlignment="viewStart"
-        android:drawableTop="@drawable/walking_resize"
-        android:backgroundTint="#ffffff"/>
-
-    <Button
-        android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:textSize="20sp"
-        android:textColor="#70558e"
-        android:text="\n2키로 감량 챌린지\n#건강한 몸"
-        android:layout_marginBottom="30dp"
-        android:id="@+id/weightChall"
-        android:textAlignment="viewStart"
-        android:drawableTop="@drawable/weight_resize"
-        android:backgroundTint="#ffffff"/>
-
-</LinearLayout>
-
-</ScrollView>
-
-</LinearLayout>
-
+                </LinearLayout>
+            </ScrollView>
+    </LinearLayout>
 </FrameLayout>

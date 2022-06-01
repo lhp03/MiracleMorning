@@ -37,6 +37,7 @@
             android:layout_weight="1"
             android:checked="true"
             android:text="정해진 시간"
+            android:buttonTint="@color/main"
             android:background="@drawable/round_theme"/>
 
         <RadioButton
@@ -45,6 +46,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="타이머"
+            android:buttonTint="@color/main"
             android:background="@drawable/round_theme"/>
 
         <RadioButton
@@ -53,6 +55,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="읽기"
+            android:buttonTint="@color/main"
             android:background="@drawable/round_theme"/>
     </RadioGroup>
 
@@ -132,7 +135,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:backgroundTint="@color/main"
-            android:textColor="@color/colorPrimary"
+            android:textColor="@color/colorNormal"
             android:text="확인"/>
     </LinearLayout>
 </LinearLayout>

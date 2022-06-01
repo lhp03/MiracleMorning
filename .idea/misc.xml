@@ -12,8 +12,16 @@
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_information.xml" value="0.2453125" />
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_login.xml" value="0.2453125" />
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_main.xml" value="0.36875" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/activity_signup.xml" value="0.36875" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/add_routine_dialog.xml" value="0.36875" />
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_alarm.xml" value="0.2994791666666667" />
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_calendar.xml" value="0.2864583333333333" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_challenge.xml" value="0.36875" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/fragment_community.xml" value="0.25" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/item_gallary.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/item_post.xml" value="0.26927083333333335" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/routine_list.xml" value="0.36875" />
+        <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/layout/view_loader.xml" value="0.36875" />
         <entry key="..\:/Users/LHP/AndroidStudioProjects/MR_Demo/app/src/main/res/menu/bottom_menu.xml" value="0.2453125" />
         <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/clock.xml" value="0.1" />
         <entry key="..\:/Users/Samsung/AndroidStudioProjects/MR_Demo/app/src/main/res/drawable/ic_baseline_add_circle_24.xml" value="0.123" />

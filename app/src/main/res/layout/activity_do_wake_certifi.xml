@@ -20,7 +20,7 @@
                 android:id="@+id/photo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/wake_photo_ex2_resize" />
+                app:srcCompat="@drawable/wake_photo_ex2_resize"/>
 
             <Button
                 android:id="@+id/takeWakePhoto"
