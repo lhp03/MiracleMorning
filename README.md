@@ -2,7 +2,7 @@
 Term project for Mobile Programming
 - Trailer Video: 
 
-|Name|Part|task|
+|Name|Part|Task|
 |---|---|---|
 |박예진|Calendar|PPT|
 |노인욱|Challenge|PPT|
@@ -18,7 +18,7 @@ self-management is essential in modern society. Therefore, varous advice related
 Miracle morning is a concept that appeared in 2016 self-development book.
 Miracle morning is simply to awke up ealy in the morning and practice self-develop ment such as reading and exercise or self-advice as a routine.
 
-### This application will help you to achieve your miracle morning**
+### This application will help you to achieve your miracle morning
 - For someone who wants to live regular life, self-improvement, miracle morning
 - By perform morning rouitnes with certain alarms.
 - Share your routine with others and avoid th failure of Miracle Morning.
