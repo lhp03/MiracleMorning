@@ -21,7 +21,6 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import swdm2016.gachon.mr_demo.Fragment.AlarmFragment;
-import swdm2016.gachon.mr_demo.Fragment.AnalysisFragment;
 import swdm2016.gachon.mr_demo.Fragment.CalendarFragment;
 import swdm2016.gachon.mr_demo.Fragment.ChallengeFragment;
 import swdm2016.gachon.mr_demo.Fragment.CommunityFragment;
@@ -34,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
 
     MemberInfo memberInfo;
     AlarmFragment alarmFragment;
-    AnalysisFragment analysisFragment;
     CommunityFragment communityFragment;
     ChallengeFragment challengeFragment;
     ProfileFragment profileFragment;
