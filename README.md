@@ -45,7 +45,20 @@ Miracle morning is simply to awke up ealy in the morning and practice self-devel
 - You can participate in a challenge related in their own routines.
 
 # Structure
+![flowchart_1](https://user-images.githubusercontent.com/60330965/173026354-85cc981b-ca80-4b91-818e-d878936c2d80.png)
+
+![flowchart _2](https://user-images.githubusercontent.com/60330965/173026372-377c3762-74f9-4226-81a0-f15558fed9a4.png)
 
 # Implementation in detail
+### Sign up and Login and Check Information
+
+### Alarm
+
+### Calendar
+
+### Challenge
+
+### Community
+
 
 # Technology
