@@ -1,6 +1,6 @@
 # Miracle Morning
 Term project for Mobile Programming
-- Trailer Video: 
+- Trailer Video:https://youtu.be/gvk7CWmzRrA
 
 |Name|Part|Task|
 |---|---|---|
