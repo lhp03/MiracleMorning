@@ -7,7 +7,7 @@ Term project for Mobile Programming
 |박예진|Calendar|PPT|
 |노인욱|Challenge|PPT|
 |이현필|Alarm|Debugging|
-|이정훈|Login, Community|Presenter|
+|이정훈|Login, Community|Presentation|
 
 
 ## Brief Description
