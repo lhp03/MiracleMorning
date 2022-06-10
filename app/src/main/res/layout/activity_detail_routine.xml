@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:layout_margin="10dp"
-    tools:context=".DetailRoutineActivity">
+    tools:context=".Activity.DetailRoutineActivity">
 
     <TextView
         android:id="@+id/textview_routine_title"

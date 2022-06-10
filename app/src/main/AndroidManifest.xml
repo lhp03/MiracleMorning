@@ -10,6 +10,8 @@
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
+    <uses-sdk android:minSdkVersion="23"/>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -19,13 +21,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.Light.NoActionBar">
         <activity
-            android:name=".CalendarActivity"
+            android:name=".Activity.CalendarActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Activity.MainActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".LogInActivity"
+            android:name=".Activity.LogInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -34,46 +36,46 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SignUpActivity"
+            android:name=".Activity.SignUpActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".InformationActivity"
+            android:name=".Activity.InformationActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".WritePostActivity"
+            android:name=".Activity.WritePostActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".GalleryActivity"
+            android:name=".Activity.GalleryActivity"
             android:exported="true"></activity>
         <activity
-            android:name=".AddRoutineDetailActivity"
+            android:name=".Activity.AddRoutineDetailActivity"
             android:exported="true" />
         <activity
-            android:name=".DetailRoutineActivity"
+            android:name=".Activity.DetailRoutineActivity"
             android:exported="true" />
         <activity
-            android:name=".AddRoutineActivity"
+            android:name=".Activity.AddRoutineActivity"
             android:exported="true" />
         <activity
-            android:name=".TimerActivity"
+            android:name=".Activity.TimerActivity"
             android:exported="true" />
         <activity
-            android:name=".DoWakeCertifiActivity"
+            android:name=".Activity.DoWakeCertifiActivity"
             android:exported="false" />
         <activity
-            android:name=".WakeChalCertifiActivity"
+            android:name=".Activity.WakeChalCertifiActivity"
             android:exported="false" />
         <activity
-            android:name=".WakeChallengeActivity"
+            android:name=".Activity.WakeChallengeActivity"
             android:exported="false" />
 
         <service
-            android:name=".AlarmService"
+            android:name=".Service.AlarmService"
             android:enabled="true"
             android:exported="true" />
 
         <receiver
-            android:name=".AlarmReceiver"
+            android:name=".Receiver.AlarmReceiver"
             android:enabled="true"
             android:exported="true" />
 
