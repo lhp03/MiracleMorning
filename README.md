@@ -86,3 +86,10 @@ You can enter the add routine detail page by click '추가' button. You must ent
 ![com](https://user-images.githubusercontent.com/60330965/173105886-9d109ab6-9810-47be-8854-0cbff1b8408b.png)
 - In community page, you can view posts posted by others, or you can create posts and share them with others.
 - You can attach videos and pictures.
+
+## Implementation Description
+### Sign up, Login, Profile
+### Alarm
+### Calendar
+### Community
+### Challenge
